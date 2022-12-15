@@ -6,3 +6,6 @@ from: ubuntu:22.04
 git:
 - add: /
   to: /app
+shell:
+  install:
+  - echo HELLO
